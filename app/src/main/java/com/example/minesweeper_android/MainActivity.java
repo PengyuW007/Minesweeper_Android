@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity implements OnCellClickListen
 
     @Override
     public void onCellClick(Cell cell) {
-        //Toast Messages are a quick way of informing the user by short Pop-up messages that last for a short period of time and then disappear. 
+        //Toast Messages are a quick way of informing the user by short Pop-up messages that last for a short period of time and then disappear.
         Toast.makeText(getApplicationContext(),"Cell clicked",Toast.LENGTH_SHORT);
     }
 }
